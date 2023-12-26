@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BDDPOC suite 1" configfailurepolicy="continue" parallel="false">
+	<test name=" Automation Task" annotations="JDK"
+		preserve-order="true">
+		<classes>
+			<class name="runner.runner" />
+		</classes>
+	</test>
+</suite>
